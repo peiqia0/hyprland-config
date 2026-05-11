@@ -1,0 +1,17 @@
+{
+    "height": 24,
+    "spacing": 4,
+    "modules-left": ["hyprland/workspaces"],
+    "modules-right": ["pulseaudio", "network", "clock"],
+    "clock": {
+        "format": "{:%H:%M %d/%m/%Y}"
+    },
+    "network": {
+        "format-wifi": "{essid} ",
+        "format-ethernet": "ETH ",
+        "format-disconnected": "No Network"
+    },
+    "pulseaudio": {
+        "format": "VOL {volume}%"
+    }
+}
